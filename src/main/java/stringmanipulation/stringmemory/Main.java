@@ -1,4 +1,6 @@
-package stringmanipulation.heapndscp;
+package stringmanipulation.stringmemory;
+
+//package stringmanipulation.heapndscp;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,9 +13,9 @@ public class Main {
         // Here the obj created in String pool  before creating new object 1st it will check whether obj is already present in the memory or not
         // "= =" operator compare only reference variable not data
         /* Result
-        * false
-        * true
-        * false
+         * false
+         * true
+         * false
          */
         String v1  = new String("Shailesh") ;
         String v2 = new String("NotEqual" );
@@ -25,9 +27,9 @@ public class Main {
         // "= =" operator here compare data of the two objects
         // result
         /*
-        *false
-        * false
-        * false
+         *false
+         * false
+         * false
          */
 
     }
